@@ -41,6 +41,7 @@ jobs:
        GITHUB_TOKEN: ${{ secrets.TOKEN }}
        APP_FOLDER: app
        RELEASE_TITLE: New Build
+       OUTPUT_FOLDER: build/outputs/apk/debug
 ```
 
 ### Secrets
@@ -57,6 +58,7 @@ You'll need to provide these environment variables to specify exactly what infor
 
 * **APP_FOLDER**: main folder to search for the apk. Most of the time, it's `app`
 * **RELEASE_TITLE**: title for release
+* **OUTPUT_FOLDER**: Output folder path
 
 ## Credits
 
