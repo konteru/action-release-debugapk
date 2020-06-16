@@ -4,6 +4,10 @@
 
 🕷 Build and release debug APK from your Android project
 
+## Author
+1. ShaunLWM https://github.com/ShaunLWM/action-release-debugapk
+2. rootdavinalfa  https://github.com/rootdavinalfa/
+
 ## Warning ⚠
 Add a target branch (eg. master) to build the APK to prevent infinite loop (releasing the APK on the release tag will trigger a rerun of the action).
 
